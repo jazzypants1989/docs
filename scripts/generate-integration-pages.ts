@@ -118,7 +118,7 @@ class IntegrationPagesBuilder {
 #
 # TRANSLATORS: please remove this note and the <DontEditWarning/> component.
 
-layout: ~/layouts/IntegrationLayout.astro
+type: integration
 title: '${name}'
 description: ${createDescription(name, category)}
 githubURL: '${githubLink}'
